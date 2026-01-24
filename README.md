@@ -1,6 +1,6 @@
 # FAVES V3 Regulatory Detection Benchmark
 
-[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](https://doi.org/PENDING)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18357496.svg)](https://doi.org/10.5281/zenodo.18357496)
 
 Validation benchmark for FAVES V3, a three-tier regulatory compliance detection system for identifying DEA-controlled substances in molecular databases.
 
@@ -92,7 +92,7 @@ If you use this benchmark, please cite:
   author={Harrison, Ari},
   journal={ChemRxiv},
   year={2026},
-  doi={PENDING}
+  doi={10.5281/zenodo.18357496}
 }
 ```
 
