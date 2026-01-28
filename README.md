@@ -8,7 +8,7 @@ Validation benchmark for FAVES V3, a three-tier regulatory compliance detection 
 
 This repository contains the benchmark dataset and validation scripts used to evaluate FAVES V3 performance, as described in:
 
-> Harrison, A. (2026). FAVES V3: A Three-Tier Regulatory Compliance Detection System for Molecular Databases. *ChemRxiv*. DOI: [PENDING]
+> Harrison, A. (2026). FAVES V3: A Three-Tier Regulatory Compliance Detection System for Molecular Databases. *ChemRxiv*. DOI: [10.26434/chemrxiv.10001641](https://doi.org/10.26434/chemrxiv.10001641)
 
 ## Dataset
 
