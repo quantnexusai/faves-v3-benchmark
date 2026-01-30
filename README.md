@@ -27,7 +27,8 @@ The benchmark comprises **102 compounds**:
 
 ```
 ├── data/
-│   └── ground_truth.csv          # Benchmark compounds with regulatory status
+│   ├── ground_truth.csv          # Benchmark compounds with regulatory status
+│   └── scaffold_patterns.csv     # 37 SMARTS patterns for scaffold detection
 ├── results/
 │   └── validation_results.csv    # FAVES V3 predictions vs ground truth
 ├── scripts/
@@ -35,17 +36,32 @@ The benchmark comprises **102 compounds**:
 └── README.md
 ```
 
+### Scaffold Patterns
+
+The `scaffold_patterns.csv` file contains 37 SMARTS patterns used for Tier 3 scaffold-based detection:
+
+| Category | Count |
+|----------|-------|
+| Opioid | 8 |
+| Benzodiazepine | 6 |
+| Stimulant | 7 |
+| Cannabinoid | 6 |
+| Hypnotic/Sedative | 5 |
+| Dissociative/Hallucinogen | 5 |
+
 ## Results
 
 FAVES V3 achieved perfect classification on this benchmark:
 
-| Metric | Value |
-|--------|-------|
-| Sensitivity | 100.0% |
-| Specificity | 100.0% |
-| Precision | 100.0% |
-| F1 Score | 1.000 |
-| Accuracy | 100.0% |
+| Metric | Value | 95% CI |
+|--------|-------|--------|
+| Sensitivity | 100.0% | [92.5%, 100.0%] |
+| Specificity | 100.0% | [93.5%, 100.0%] |
+| Precision | 100.0% | [92.5%, 100.0%] |
+| F1 Score | 1.000 | — |
+| Accuracy | 100.0% | [96.5%, 100.0%] |
+
+*Confidence intervals calculated using the Clopper-Pearson exact method.*
 
 **Confusion Matrix:**
 
@@ -92,6 +108,17 @@ If you use this benchmark, please cite:
   author={Harrison, Ari},
   journal={ChemRxiv},
   year={2026},
+  doi={10.26434/chemrxiv.10001641}
+}
+```
+
+For the benchmark dataset specifically:
+```bibtex
+@dataset{harrison2026faves_benchmark,
+  title={FAVES V3 Regulatory Detection Benchmark},
+  author={Harrison, Ari},
+  year={2026},
+  publisher={Zenodo},
   doi={10.5281/zenodo.18357496}
 }
 ```

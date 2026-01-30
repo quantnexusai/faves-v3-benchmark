@@ -1,0 +1,38 @@
+pattern_name,smarts,target_class,category
+Morphinan core,"[#6]1~[#6]~[#6]~[#6]2~[#6]~[#6]~[#6]~[#6]3~[#6]~[#6]~[#7]~[#6]~[#6]1~[#6]~23","Morphine, codeine, heroin",Opioid
+Fentanyl scaffold,"[#6]C(=O)N([#6])C1CCN(CC1)CCc2ccccc2",Fentanyl analogues,Opioid
+4-Anilidopiperidine,"c1ccccc1NC(=O)C2CCNCC2",Fentanyl derivatives,Opioid
+Methadone scaffold,"[#6]C([#6])(c1ccccc1)C(=O)CC",Methadone analogues,Opioid
+Buprenorphine core,"[#6]1~[#6]~[#6]2~[#6]~[#6]~[#6]~[#6]3~[#6]~[#6]~[#7]~[#6]~[#6]1~[#6]~23~[#6]~[#6]~[#8]",Buprenorphine derivatives,Opioid
+Meperidine scaffold,"CCOC(=O)C1(CCN(CC1)C)c2ccccc2",Pethidine analogues,Opioid
+Tramadol scaffold,"[#6]N([#6])CC1CCCCC1([#6])O",Tramadol derivatives,Opioid
+Tapentadol scaffold,"[#6]c1cccc(O)c1C([#6])C([#6])CN",Tapentadol analogues,Opioid
+1,4-Benzodiazepine,"c1ccc2c(c1)C(=NC(=O)CN2)c3ccccc3","Diazepam, alprazolam",Benzodiazepine
+Triazolobenzodiazepine,"c1ccc2c(c1)C3=NCC(=O)N2c4nncn34","Alprazolam, triazolam",Benzodiazepine
+7-Nitrobenzodiazepine,"[O-][N+](=O)c1ccc2NC(=O)CN=C(c3ccccc3)c2c1","Clonazepam, nitrazepam",Benzodiazepine
+Thienodiazepine,"c1csc2c1C(=NCC(=O)N2)c3ccccc3",Etizolam analogues,Benzodiazepine
+Imidazobenzodiazepine,"c1ccc2c(c1)C3=NC=CN3C(=O)CN2",Midazolam derivatives,Benzodiazepine
+Lorazepam scaffold,"c1ccc(Cl)cc1C2=NC(O)C(=O)Nc3ccc(Cl)cc23","Lorazepam, lormetazepam",Benzodiazepine
+Phenethylamine,"[#7]CCc1ccccc1",Base stimulant scaffold,Stimulant
+Amphetamine strict,"CC(N)Cc1ccccc1","Amphetamine, methamphetamine",Stimulant
+Cathinone,"[#7]C([#6])C(=O)c1ccccc1",Synthetic cathinones,Stimulant
+MDMA scaffold,"CC(N)Cc1ccc2OCOc2c1","MDMA, MDA",Stimulant
+Methylphenidate,"[#6]OC(=O)C(c1ccccc1)C2CCCCN2",Methylphenidate analogues,Stimulant
+Lisdexamfetamine,"CC(Cc1ccccc1)NC(=O)C(N)CCCCN",Prodrug stimulants,Stimulant
+Phenmetrazine,"CC1C(OCCN1)c2ccccc2",Phendimetrazine derivatives,Stimulant
+Classical cannabinoid,"Oc1cc(CCCCC)cc2OC(C)(C)C3CCC(C)=CC3c12","THC, dronabinol",Cannabinoid
+Indole cannabinoid,"c1ccc2c(c1)cc(CCN)n2C(=O)",JWH series,Cannabinoid
+Indazole cannabinoid,"c1ccc2c(c1)nn(C(=O))c2",AB-PINACA series,Cannabinoid
+Naphthoylindole,"c1ccc2c(c1)C(=O)c3ccn(c3)CC",AM series,Cannabinoid
+Cyclohexylphenol,"Oc1ccc(cc1)C2CCCCC2",CP series,Cannabinoid
+Nabilone scaffold,"CCCCCCC(C)(C)c1cc(O)c2C3CC(=O)CCC3C(C)(C)Oc2c1",Nabilone,Cannabinoid
+Imidazopyridine,"c1cnc2c(n1)cccc2",Zolpidem,Hypnotic
+Pyrazolopyrimidine,"c1cnc2[nH]ncc2n1",Zaleplon,Hypnotic
+Barbiturate,"O=C1NC(=O)NC(=O)C1","Phenobarbital, pentobarbital",Hypnotic
+Carisoprodol scaffold,"CC(C)(COC(=O)N)COC(=O)NC(C)C",Carisoprodol,Hypnotic
+Methaqualone,"Cc1ccccc1n2c(C)nc3ccccc3c2=O",Methaqualone,Hypnotic
+Arylcyclohexylamine,"c1ccccc1C2(N)CCCCC2","Ketamine, PCP",Dissociative
+Tryptamine,"c1ccc2[nH]cc(CCN)c2c1","Psilocybin, DMT",Hallucinogen
+Lysergamide,"CCN(CC)C(=O)C1CN(C)C2Cc3c[nH]c4cccc(C2=C1)c34",LSD,Hallucinogen
+Phenethylamine hallucinogen,"COc1cc(CCN)cc(OC)c1OC",Mescaline,Hallucinogen
+Phenylcyclohexyl,"c1ccccc1C2(CCCCC2)N3CCCCC3",PCP analogues,Dissociative
